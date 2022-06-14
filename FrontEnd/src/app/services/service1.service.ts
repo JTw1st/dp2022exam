@@ -9,7 +9,7 @@ import { Rest1 } from '../interfaces/rest1';
 })
 export class Service1Service {
 
-  url:string="http://localhost:8080/danimalses";
+  url:string="http://localhost:8080/entity5s";
 
   constructor(private http:HttpClient) { }
 

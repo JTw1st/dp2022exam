@@ -21,7 +21,7 @@ export class RmComponent implements OnInit {
   getRest():void{
     this.service.getRest().subscribe(
       (rest1)=>{
-        this.danimalsList=rest1._embedded.danimalses;
+        this.danimalsList=rest1._embedded.entity5s;
       }
     )
   }

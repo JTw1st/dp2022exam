@@ -7,6 +7,6 @@ import { Danimals } from './interfaces/danimals';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'lab1f';
+  title = 'exam';
   danimalsList:Danimals[]=[];
 }

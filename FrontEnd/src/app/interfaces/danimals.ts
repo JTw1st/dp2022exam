@@ -1,13 +1,11 @@
 export interface Danimals {
-    title:string;
-    age:number;
-    height:number;
-    length:number;
+    name7:string;
+    weight:number;
     _links:{
         self: {
         href: string;
         },
-        danimals: {
+        entity5: {
         href: string;
         }
     }

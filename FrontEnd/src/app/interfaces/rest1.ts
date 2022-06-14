@@ -1,7 +1,7 @@
 import { Danimals } from "./danimals";
 export interface Rest1 {
     _embedded: {
-        danimalses: Danimals[]
+        entity5s: Danimals[]
         },
         _links: {
         self: {
